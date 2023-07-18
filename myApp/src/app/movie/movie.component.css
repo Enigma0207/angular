@@ -1,0 +1,24 @@
+.prod{
+    display: flex;
+    margin: 20px;
+  
+    width: 80%;
+
+    
+}
+.prod img{
+    width: 400px;
+    margin-right: 50px;
+}
+.relatif{
+    position: relative;
+}
+button{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    background-color: aquamarine;
+    border-radius: 3px;
+}
+
+/* on a créer un model de movie dans le dossier app et on met les eleùment selon le cours */
