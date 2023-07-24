@@ -1,8 +1,10 @@
 .prod{
     display: flex;
     margin: 20px;
-  
+    /* background-color: blue; */
     width: 80%;
+   
+    border: ;
 
     
 }
@@ -12,13 +14,26 @@
 }
 .relatif{
     position: relative;
+    width: 500px;
+    border: 1px black solid;
+    padding: 10px;
 }
 button{
     position: absolute;
     top: 110px;
     left: 20px;
-    background-color: aquamarine;
+    background-color: rgba(255, 127, 217, 0.325);
     border-radius: 3px;
+    border: solid white;
+    margin-top: 10px;
 }
+.coeur{
+   background-color: aquamarine;
+}
+span{
+    position: absolute;
+    bottom:20px;
+}
+
 
 /* on a créer un model de movie dans le dossier app et on met les eleùment selon le cours */

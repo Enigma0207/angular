@@ -9,9 +9,11 @@ import { MovieService } from '../movieservice';
 })
 export class MovieListComponent {
   movies!: Movie[];
-  constructor(private serviceMovie:MovieService){}
+  constructor(private serviceMovie: MovieService) {
+    this.movies = this.serviceMovie.movies;
+  // }
   //  movie2!: Movie;
-  ngOnInit(): void {
+  // ngOnInit(): void {
     
 
   }

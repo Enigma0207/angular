@@ -1,10 +1,11 @@
 <div class="prod">
     <img [src]="movie.urlImage" alt="l'image">
     <div class="relatif">
-        <h1>{{movie.titre}}</h1>
+        <h1>{{movie.titre  | titlecase }}</h1>
         <p>{{movie.description}}</p>
         <p class="pied">{{ movie.lickes }}</p>
-        <button (click)="likez()">Cliquez ici</button>
+        <button [ngClass]="{coeur: movie.licked}" (click)="likez()">Cliquez ici</button>
+        <span (click)="remove()" [ngStyle]="{'font-size':'2em'}"><i class="fa-solid fa-xmark"></i></span>
     </div>
 
 
